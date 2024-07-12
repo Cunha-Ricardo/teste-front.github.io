@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+body {
+    background-color: white;
+    color: black;
+}
+
+#home {
+    background-color: white;
+    color: black;
+}
+
+
+#Guia {
+    background-color: white;
+}
+
+#Destino{
+  background-color: white;
+  align-items: center;
+}
+
+
+#Footer {
+    background-color: gray;
+    text-decoration: none;
+    text-align: center;
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 20px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    padding-top: 18px;
+  }
+  
+  nav ul {
+    padding-left: 15px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+
+  li{
+    align-items: center;
+    padding-left: 30px;
+  }
+
+  a{
+    color: gray;
+  }
+  
+  nav ul li a:hover {
+    color: #000000;
+    text-decoration:none;
+  }
+
+  .menu-left li, .menu-right li {
+    margin: 0 15px;
+}
+
+  .contact-button {
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+
+
+section.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.text-left {
+    flex: 1;
+}
+
+.image-right {
+    flex: 1;
+}
+
+.image-right img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
